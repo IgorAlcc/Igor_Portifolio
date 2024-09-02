@@ -1,0 +1,107 @@
+
+/*comandos gerais-->*/
+* {
+    font-family: 'Sego  e UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+/*Cabeçalho-->*/
+header{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.692);
+
+}
+
+nav{float:center;}
+
+nav a:hover {
+    color: rgb(0, 38, 255);
+}
+
+ul {
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    background-color: rgb(32, 32, 32);
+    
+}
+
+li{
+    margin-top: px;
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 35px;
+    transition: 1s;
+    padding: 20px 70px;
+
+}
+/*pagina em geral-->*/
+.container {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+
+}
+section  {
+    display: flex;
+    align-items: center;
+
+}
+
+section > p {
+    padding: 40px;
+    font-size: 45px;
+}
+
+.cursando {
+    padding: 40px;
+    font-size: 35px;
+    background-color: gray;
+    color: white;
+    width: 100%;
+}
+
+.trabalho {
+    font-size: 35px;
+    padding: 40px;
+
+}
+.formulario {
+    font-size: 35px;
+    padding: 40px;
+    background-color: gray;
+    width: 100%;
+    color: white;
+}
+
+form {
+    width: 30%;
+    margin: 0%;
+    height: auto;
+    display: block;
+    justify-content: left;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+form input, form textarea{
+    width: 100%;
+    height: auto;
+    background-color: rgba(247, 247, 247, 0.548);
+    border: 10;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+
+}
